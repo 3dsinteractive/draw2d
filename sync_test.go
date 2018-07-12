@@ -4,11 +4,12 @@ package draw2d_test
 
 import (
 	"fmt"
-	"github.com/llgcode/draw2d"
-	"github.com/llgcode/draw2d/draw2dimg"
-	"github.com/llgcode/draw2d/draw2dkit"
 	"image"
 	"testing"
+
+	"github.com/3dsinteractive/draw2d"
+	"github.com/3dsinteractive/draw2d/draw2dimg"
+	"github.com/3dsinteractive/draw2d/draw2dkit"
 )
 
 func TestSync(t *testing.T) {

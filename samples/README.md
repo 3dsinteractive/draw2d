@@ -12,8 +12,8 @@ The following Go code draws the android sample on a png image:
 import (
 	"image"
 
-	"github.com/llgcode/draw2d"
-	"github.com/llgcode/draw2d/samples/android"
+	"github.com/3dsinteractive/draw2d"
+	"github.com/3dsinteractive/draw2d/samples/android"
 )
 
 function main(){}
@@ -43,8 +43,8 @@ The following Go code draws the android sample on a pdf document:
 import (
 	"image"
 
-	"github.com/llgcode/draw2d/draw2dpdf"
-	"github.com/llgcode/draw2d/samples/android"
+	"github.com/3dsinteractive/draw2d/draw2dpdf"
+	"github.com/3dsinteractive/draw2d/samples/android"
 )
 
 function main(){}

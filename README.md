@@ -41,7 +41,7 @@ The following Go code generates a simple drawing and saves it to an image file w
 package main
 
 import (
-	"github.com/llgcode/draw2d/draw2dimg"
+	"github.com/3dsinteractive/draw2d/draw2dimg"
 	"image"
 	"image/color"
 )
@@ -75,7 +75,7 @@ The same Go code can also generate a pdf document with package draw2dpdf:
 package main
 
 import (
-	"github.com/llgcode/draw2d/draw2dpdf"
+	"github.com/3dsinteractive/draw2d/draw2dpdf"
 	"image/color"
 )
 

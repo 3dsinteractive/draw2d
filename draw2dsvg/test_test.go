@@ -9,8 +9,8 @@ package draw2dsvg_test
 import (
 	"testing"
 
-	"github.com/llgcode/draw2d"
-	"github.com/llgcode/draw2d/draw2dsvg"
+	"github.com/3dsinteractive/draw2d"
+	"github.com/3dsinteractive/draw2d/draw2dsvg"
 )
 
 type sample func(gc draw2d.GraphicContext, ext string) (string, error)

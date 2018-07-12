@@ -5,16 +5,17 @@ package draw2dsvg
 
 import (
 	"fmt"
-	"github.com/golang/freetype/truetype"
-	"github.com/llgcode/draw2d"
-	"github.com/llgcode/draw2d/draw2dbase"
-	"golang.org/x/image/font"
-	"golang.org/x/image/math/fixed"
 	"image"
 	"log"
 	"math"
 	"strconv"
 	"strings"
+
+	"github.com/3dsinteractive/draw2d"
+	"github.com/3dsinteractive/draw2d/draw2dbase"
+	"github.com/golang/freetype/truetype"
+	"golang.org/x/image/font"
+	"golang.org/x/image/math/fixed"
 )
 
 type drawType int

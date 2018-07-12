@@ -29,7 +29,7 @@
 //		package main
 //
 // 		import (
-// 			"github.com/llgcode/draw2d/draw2dimg"
+// 			"github.com/3dsinteractive/draw2d/draw2dimg"
 // 			"image"
 // 			"image/color"
 // 		)

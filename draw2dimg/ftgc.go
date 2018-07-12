@@ -9,8 +9,8 @@ import (
 	"log"
 	"math"
 
-	"github.com/llgcode/draw2d"
-	"github.com/llgcode/draw2d/draw2dbase"
+	"github.com/3dsinteractive/draw2d"
+	"github.com/3dsinteractive/draw2d/draw2dbase"
 
 	"github.com/golang/freetype/raster"
 	"github.com/golang/freetype/truetype"
@@ -34,7 +34,7 @@ type GraphicContext struct {
 	painter          Painter
 	fillRasterizer   *raster.Rasterizer
 	strokeRasterizer *raster.Rasterizer
-	FontCache		 draw2d.FontCache
+	FontCache        draw2d.FontCache
 	glyphCache       draw2dbase.GlyphCache
 	glyphBuf         *truetype.GlyphBuf
 	DPI              int

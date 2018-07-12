@@ -7,13 +7,14 @@ import (
 	"bytes"
 	"encoding/base64"
 	"fmt"
-	"github.com/llgcode/draw2d"
 	"image"
 	"image/color"
 	"image/png"
 	"math"
 	"strconv"
 	"strings"
+
+	"github.com/3dsinteractive/draw2d"
 )
 
 func toSvgRGBA(c color.Color) string {

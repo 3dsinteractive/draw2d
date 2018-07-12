@@ -10,10 +10,10 @@ import (
 	"strings"
 	"time"
 
+	"github.com/3dsinteractive/draw2d/draw2dgl"
+	"github.com/3dsinteractive/ps"
 	"github.com/go-gl/gl/v2.1/gl"
 	"github.com/go-gl/glfw/v3.1/glfw"
-	"github.com/llgcode/draw2d/draw2dgl"
-	"github.com/llgcode/ps"
 )
 
 var postscriptContent string

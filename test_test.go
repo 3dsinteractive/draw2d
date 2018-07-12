@@ -6,8 +6,8 @@ import (
 	"image"
 	"testing"
 
-	"github.com/llgcode/draw2d"
-	"github.com/llgcode/draw2d/draw2dimg"
+	"github.com/3dsinteractive/draw2d"
+	"github.com/3dsinteractive/draw2d/draw2dimg"
 )
 
 type sample func(gc draw2d.GraphicContext, ext string) (string, error)

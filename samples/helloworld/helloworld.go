@@ -9,9 +9,9 @@ import (
 	"fmt"
 	"image"
 
-	"github.com/llgcode/draw2d"
-	"github.com/llgcode/draw2d/draw2dkit"
-	"github.com/llgcode/draw2d/samples"
+	"github.com/3dsinteractive/draw2d"
+	"github.com/3dsinteractive/draw2d/draw2dkit"
+	"github.com/3dsinteractive/draw2d/samples"
 )
 
 // Main draws "Hello World" and returns the filename. This should only be

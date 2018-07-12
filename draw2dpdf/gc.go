@@ -16,10 +16,10 @@ import (
 
 	"github.com/golang/freetype/truetype"
 
+	"github.com/3dsinteractive/draw2d"
+	"github.com/3dsinteractive/draw2d/draw2dbase"
+	"github.com/3dsinteractive/draw2d/draw2dkit"
 	"github.com/jung-kurt/gofpdf"
-	"github.com/llgcode/draw2d"
-	"github.com/llgcode/draw2d/draw2dbase"
-	"github.com/llgcode/draw2d/draw2dkit"
 )
 
 const (
